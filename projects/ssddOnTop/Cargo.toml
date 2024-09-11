@@ -4,3 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+tokio = {version = "1.40.0", features = ["full"]}
+tracing = "0.1.40"
+hyper = "1.4.1"
+hyper-util = {version = "0.1.8", features = ["tokio"]}
+http-body-util = "0.1.2"
+bytes = "1.7.1"
+anyhow = "1.0.87"
+async-graphql = {version = "7.0.9", features = ["dynamic-schema"]}
+serde_json = "1.0.127"
+serde = { version = "1.0.210", features = ["derive"] }
+async-graphql-value = "7.0.9"
+serde_path_to_error = "0.1.16"
